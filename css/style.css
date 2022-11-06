@@ -1,0 +1,116 @@
+
+*{
+  padding: 0;
+  margin: 0;  
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(101, 101, 117);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.container{
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  padding: 40px 65px 60px 65px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 20px 40px rgba(38, 33, 61, 0);
+
+}
+h3{
+  font-size: 36px;
+  font-family: "Inter";
+ font-weight: 44px;
+}
+.search-box{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.search-box input{
+  width: 1104px;
+  height: 61px;
+  outline: none;
+  border: noen;
+  padding: 16px 33px;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 24px;
+  background-color: #ffffff;
+
+}
+.search-box button{
+ width: 158px;
+ height: 61px;
+ font-size: 24px;
+ background-color: #000000;
+ color: #ffffff;
+ border-radius: 12px;
+ outline: none;
+ border: none;
+
+}
+.result{
+  width: 1308px;
+  min-height: 737px;
+  border-radius: 15px;
+  margin-top: 80px;
+  padding: 37px 32px;
+  position: relative;
+  border: 1px solid rgb(192, 188, 188);
+    -webkit-box-shadow: -9px -7px 9px 1px rgba(75, 92, 105, 0.2);
+  -moz-box-shadow: -9px -7px 9px 1px rgba(75, 92, 105, 0.2);
+  box-shadow: -9px -7px 9px 1px rgba(75, 92, 105, 0.2);
+}
+
+.result .word{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.result button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.fa-play{
+  color: white;
+}
+.wrapper__icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.word-heading{
+  color: #000000;
+  font-size: 40px;
+  line-height: 48px;
+  line-height: 100%;
+  
+}
+.word-meaning{
+  margin-top: 22px;
+  margin-bottom: 22px;
+  max-width: 800px;
+}
+.word-example{
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 34px;
+  margin-left: 40px;
+}
